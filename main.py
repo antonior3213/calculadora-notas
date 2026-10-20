@@ -21,3 +21,6 @@ if __name__ == "__main__":
     m = media(notas)
     print(f"Media: {m:.2f}")
     print(f"Calificación: {calificacion(m)}")
+def media_ponderada(notas, pesos):
+    """Media ponderada: cada nota se multiplica por su peso."""
+    return sum(n * p for n, p in zip(notas, pesos)) / sum(pesos)
