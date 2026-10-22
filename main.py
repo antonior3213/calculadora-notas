@@ -5,6 +5,8 @@ def media(notas):
 
 def calificacion(nota):
     """Devuelve la calificación en texto de una nota numérica."""
+    if not 0 <= nota <= 10:
+        raise ValueError("La nota debe estar entre 0 y 10")
     if nota < 5:
         return "Insuficiente"
     elif nota < 6:
