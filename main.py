@@ -48,4 +48,3 @@ if __name__ == "__main__":
     print(f"Media ponderada: {media_ponderada(notas, pesos):.2f}")
     print(f"Nota más alta: {nota_maxima(notas)}")
     print(f"Nota más baja: {nota_minima(notas)}")
-    print("DEBUG")
