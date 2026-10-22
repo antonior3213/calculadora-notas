@@ -33,6 +33,11 @@ def nota_minima(notas):
     return min(notas)
 
 
+def aprobados(notas):
+    """Devuelve cuántas notas son iguales o superiores a 5."""
+    return sum(1 for n in notas if n >= 5)
+
+
 if __name__ == "__main__":
     notas = [6.5, 7, 8.25, 5]
     m = media(notas)
