@@ -21,6 +21,16 @@ def media_ponderada(notas, pesos):
     return sum(n * p for n, p in zip(notas, pesos)) / sum(pesos)
 
 
+def nota_maxima(notas):
+    """Devuelve la nota más alta de una lista de notas."""
+    return max(notas)
+
+
+def nota_minima(notas):
+    """Devuelve la nota más baja de una lista de notas."""
+    return min(notas)
+
+
 if __name__ == "__main__":
     notas = [6.5, 7, 8.25, 5]
     m = media(notas)
@@ -28,3 +38,5 @@ if __name__ == "__main__":
     print(f"Calificación: {calificacion(m)}")
     pesos = [0.2, 0.2, 0.4, 0.2]
     print(f"Media ponderada: {media_ponderada(notas, pesos):.2f}")
+    print(f"Nota más alta: {nota_maxima(notas)}")
+    print(f"Nota más baja: {nota_minima(notas)}")
