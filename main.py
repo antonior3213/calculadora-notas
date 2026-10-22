@@ -24,7 +24,7 @@ def media_ponderada(notas, pesos):
 if __name__ == "__main__":
     notas = [6.5, 7, 8.25, 5]
     m = media(notas)
-    print(f"Media: {m:.2f}")
+    print(f"Nota media: {m:.1f}")
     print(f"Calificación: {calificacion(m)}")
     pesos = [0.2, 0.2, 0.4, 0.2]
     print(f"Media ponderada: {media_ponderada(notas, pesos):.2f}")
