@@ -76,7 +76,7 @@
 ## Fase 11
 
 1. ¿Cuántos commits tiene main en total? ¿Cuántos son commits de merge?
-   main tiene 21 commits en total y 2 son commits de merge (el de feature/formato y el de la pull request #1).
-
-2. ¿Qué commit introdujo la validación del rango? Indica los 7 primeros caracteres de su hash.
+   main tiene 25 commits en total y 2 son commits de merge (el de feature/formato y el de la pull request #1).
+   
+3. ¿Qué commit introdujo la validación del rango? Indica los 7 primeros caracteres de su hash.
    Lo introdujo el commit "Commit and push", con hash 03d475b. Lo vi con Git Blame en la línea del ValueError.
