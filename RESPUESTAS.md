@@ -1,5 +1,3 @@
-
-
 ## Fase 1
 
 1. ¿Para qué sirven user.name y user.email? ¿Dónde aparecerán más adelante?
@@ -48,3 +46,19 @@
 
 1. ¿Qué diferencia hay entre Pop y Apply al recuperar un stash?
    Pop aplica los cambios guardados y borra el stash de la lista. Apply los aplica pero deja el stash guardado, por si lo quiero usar otra vez.
+
+## Fase 10
+
+1. Completa: Rollback sirve para ___; Amend para ___; Undo Commit para ___; Revert para ___.
+   Rollback sirve para descartar los cambios que aún no he confirmado y volver al último commit. Amend, para corregir el último commit (por ejemplo su mensaje) antes de subirlo. Undo Commit, para deshacer un commit que no he subido y dejar sus cambios pendientes. Revert, para deshacer un commit que ya está en GitHub, creando un commit nuevo que lo invierte.
+
+2. ¿Por qué pudiste recuperar borrador.txt si Git nunca lo había guardado?
+   Porque PyCharm tiene su propio historial local, que guarda versiones de los archivos aunque Git no los siga. Por eso pude recuperarlo con Local History.
+
+## Fase 11
+
+1. ¿Cuántos commits tiene main en total? ¿Cuántos son commits de merge?
+   main tiene 21 commits en total y 2 son commits de merge (el de feature/formato y el de la pull request #1).
+
+2. ¿Qué commit introdujo la validación del rango? Indica los 7 primeros caracteres de su hash.
+   Lo introdujo el commit "Commit and push", con hash 03d475b. Lo vi con Git Blame en la línea del ValueError.
