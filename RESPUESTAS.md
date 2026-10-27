@@ -1,3 +1,5 @@
+# Respuestas de la práctica
+
 ## Fase 1
 
 1. ¿Para qué sirven user.name y user.email? ¿Dónde aparecerán más adelante?
@@ -21,6 +23,14 @@
 
 2. Explica con tus palabras la diferencia entre commit y push.
    Un commit guarda los cambios en el historial de mi ordenador, solo en local. Un push envía esos commits a GitHub. Puedo hacer varios commits y subirlos juntos con un solo push.
+## Fase 4
+
+1. ¿Por qué es mejor hacer dos commits pequeños que uno grande con todo?
+   Cada commit hace una sola cosa, así se entiende mejor qué cambió y por qué. Si algo falla, puedo deshacer solo ese commit sin perder el resto.
+
+2. Escribe un ejemplo de mensaje de commit malo y explica por qué lo es.
+   «Cambios» o «arreglo cosas». No dice qué se cambió ni por qué, y en el historial no sirve para encontrar nada.
+
 ## Fase 5
 
 1. ¿Qué ventaja tiene trabajar en una rama en lugar de directamente en main?
@@ -41,6 +51,14 @@
 
 1. En un equipo, ¿por qué conviene hacer Update Project antes de empezar a trabajar cada día?
    Porque otras personas pueden haber subido cambios a GitHub mientras yo no estaba. Si trabajo sobre una copia vieja, luego tendré conflictos al subir mis cambios. Actualizar primero me deja partir del código más reciente.
+
+## Fase 8
+
+1. ¿Qué aporta una pull request frente a fusionar directamente en local como en la fase 5?
+   Permite que alguien revise los cambios y los comente antes de fusionarlos. Además queda un registro con la descripción y la conversación.
+
+2. ¿Por qué el commit hecho después de crear la PR apareció en ella sin hacer nada más?
+   Porque la PR está unida a la rama, no a un commit concreto. Al hacer push a esa misma rama, los nuevos commits aparecen automáticamente en la PR.
 
 ## Fase 9
 
